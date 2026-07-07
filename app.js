@@ -106,7 +106,7 @@ const items = rows.map((row, index) => {
     genre,
     poster,
     hot: 18000 - index * 73 + Math.round(Number(score) * 120) + (poster.endsWith(".svg") ? -10000 : 25000),
-    summary: `${title}是日本电影网${kind}频道的${genre}内容，提供片名、原名、年份、评分、剧情看点与相关推荐。你可以在日本电影在线片库中按类型、热度和年份继续浏览，快速发现更多日本与本国电影在线观看资源。`
+    summary: `${title}收录于东京映像在线${kind}频道，提供片名、原名、年份、评分、剧情看点与相关推荐。你可以在日本高清片库中按频道、热度和年份继续浏览，快速发现更多日本电影、日剧日影、动漫电影、综艺与纪录片内容。`
   };
 });
 
