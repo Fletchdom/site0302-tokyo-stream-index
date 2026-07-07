@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>日本高清电影 - 日剧日影在线观看 | 高清免费</title>
+    <meta name="keywords" content="日本高清电影,日剧,日本动漫,日本电影,免费观看" />
+    <meta name="description" content="日本高清电影，海量日本电影、日剧、动漫、综艺免费在线观看，每张海报均为孤品唯一URL，畅享日式视听盛宴。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="library">
+    <header class="topbar">
+      <a class="brand" href="./index.html"><strong>东京映像在线</strong><span>TOKYO STREAM INDEX</span></a>
+      <nav class="nav" aria-label="主导航">
+        <a href="./index.html">今日热看</a>
+        <a class="active" href="./library.html">高清片库</a>
+        <a href="./library.html?kind=日本电影">日本电影馆</a>
+        <a href="./library.html?kind=日剧">日剧连播</a>
+        <a href="./library.html?kind=动漫电影">动画影院</a>
+        <a href="./library.html?kind=综艺">综艺舞台</a>
+        <a href="./library.html?kind=纪录片">纪实频道</a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-heading">
+        <p class="label">Library</p>
+        <h1 id="libraryTitle">日本高清片库</h1>
+        <p>按频道、热度、评分和年份查看日本电影、日剧、动漫电影、综艺、纪录片内容。</p>
+      </section>
+      <section class="toolline">
+        <button data-kind="全部">全部</button>
+        <button data-kind="日本电影">日本电影</button>
+        <button data-kind="日剧">日剧</button>
+        <button data-kind="动漫电影">动漫电影</button>
+        <button data-kind="综艺">综艺</button>
+        <button data-kind="纪录片">纪录片</button>
+        <select id="sortSelect"><option value="hot">按热度</option><option value="score">按评分</option><option value="year">按年份</option></select>
+        <span class="count" id="resultCount">0 条内容</span>
+      </section>
+      <section class="section compact"><div class="poster-grid library-grid" id="libraryGrid"></div></section>
+    </main>
+    <footer class="footer">
+      <div><strong>东京映像在线</strong><p>日本高清电影与日剧日影在线观看内容索引。</p></div>
+      <div><h3>快速浏览</h3><a href="./index.html">首页推荐</a><a href="./library.html?sort=score">高分榜</a></div>
+      <div><h3>频道</h3><a href="./library.html?kind=日本电影">日本电影</a><a href="./library.html?kind=纪录片">纪录片</a></div>
+      <div><h3>版权信息</h3><p>Copyright © 2026 东京映像在线.</p></div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
